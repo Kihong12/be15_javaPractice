@@ -14,7 +14,9 @@ import java.util.Scanner;
 
 public class Application2 {
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
+
         System.out.print("주민등록번호를 입력하세요 : ");
         String str = sc.nextLine();
 
@@ -23,7 +25,6 @@ public class Application2 {
         for (int i = 8; i < charr.length; i++) {
             charr[i] = '*';
         }
-
         System.out.println(charr);
     }
 }

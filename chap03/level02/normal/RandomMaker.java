@@ -1,6 +1,9 @@
 package com.kihongkim.level02.normal;
 
+import java.util.Random;
+
 public class RandomMaker {
+    Random random = new Random();
     //최소값부터 최대값까지 범위의 난수 반환함
     public static int randomNumber(int min, int max) {
         return (int) (Math.random() * (max - min + 1)+ min);
